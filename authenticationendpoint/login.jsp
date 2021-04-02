@@ -3,7 +3,7 @@
     if (relyingParty.equals("travelocity.com")) {
         RequestDispatcher dispatcher = request.getRequestDispatcher("login_travelocity.jsp");
         dispatcher.forward(request, response);
-    } else if (relyingParty.equals("avissss.com")) {
+    } else if (relyingParty.equals("avis.com")) {
         RequestDispatcher dispatcher = request.getRequestDispatcher("login_avis.jsp");
         dispatcher.forward(request, response);
     } else {
